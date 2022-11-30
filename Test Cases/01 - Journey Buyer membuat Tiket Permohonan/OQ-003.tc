@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Buyer dapat mengirim tiket Help Desk melalui halaman Hubungi Kami</description>
+   <name>OQ-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b75dc42-7fa9-414f-aeee-50b86ce190fc</testCaseGuid>
+</TestCaseEntity>
