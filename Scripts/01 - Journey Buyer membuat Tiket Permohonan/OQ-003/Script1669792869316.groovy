@@ -101,6 +101,10 @@ WebUI.click(findTestObject('Object Repository/OQ-003/Page_Hubungi Kami/span_Belu
 
 WebUI.click(findTestObject('Object Repository/OQ-003/Page_Hubungi Kami/button_Kirim'))
 
+WebUI.delay(3)
+
 WebUI.verifyElementText(findTestObject('Object Repository/OQ-003/Page_Hubungi Kami/div_Ticket was successfully created'), 
     'Ticket was successfully created')
+
+WebUI.closeBrowser()
 
