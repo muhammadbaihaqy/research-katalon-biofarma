@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Buyer yang sudah login dapat mengirim tiket Help Desk kepada seller/distributor  melalui halaman Detail Order dengan status Dikirim</description>
-   <name>OQ-001</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>7ac8a55c-61f7-4ae9-a2aa-749b88e75da3</testCaseGuid>
-</TestCaseEntity>

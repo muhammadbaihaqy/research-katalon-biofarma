@@ -17,34 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://smartpbf-p2-dev.digital-healthcare.id/')
-
-WebUI.click(findTestObject('Object Repository/OQ-002/Page_beranda medbiz, contoh SEO/a_Masuk'))
-
-WebUI.setText(findTestObject('Object Repository/OQ-002/Page_Login/input_Email_loginusername'), 'arrumentari.purnamawati+apotekpersada@sirclo.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/OQ-002/Page_Login/input_Kata Sandi_loginpassword'), 'p4y+y39Ir5PJb2ispxT0Ew==')
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/OQ-002/Page_Login/button_Masuk'))
-
-WebUI.click(findTestObject('Object Repository/OQ-002/Page_Akun Saya/a_Permohonan Bantuan'))
-
-WebUI.click(findTestObject('Object Repository/OQ-002/Page_Permohonan Bantuan/a_Sample Subyek'))
-
-WebUI.setText(findTestObject('Object Repository/OQ-002/Page_XZZ-85884 Sample Subyek/textarea_Kirim Balasan_content'), 'Sample kirim balasan')
-
-WebUI.click(findTestObject('Object Repository/OQ-002/Page_XZZ-85884 Sample Subyek/span_Kirim Balasan'))
-
-WebUI.delay(3)
-
-WebUI.verifyElementText(findTestObject('Object Repository/OQ-002/Page_XZZ-85884 Sample Subyek/div_Reply successfully added'), 
-    'Reply successfully added')
-
-WebUI.closeBrowser()
-
