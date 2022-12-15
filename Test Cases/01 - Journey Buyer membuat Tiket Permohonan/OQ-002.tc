@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Buyer yang sudah login dapat membalas tiket support yang sudah ditanggapi oleh seller/distributor</description>
+   <name>OQ-002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db5882c3-0722-4ec7-8676-36207c914ca6</testCaseGuid>
+</TestCaseEntity>

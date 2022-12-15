@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Buyer dapat menuju detail pesanan melalui halaman detail Permohonan Bantuan</description>
+   <name>OQ-006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41fe4ce3-5762-45aa-a91b-17cc35462839</testCaseGuid>
+</TestCaseEntity>
